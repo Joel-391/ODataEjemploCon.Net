@@ -18,7 +18,6 @@ cd ODataServiceSinDB
 dotnet restore              # Restaura paquetes NuGet
 dotnet run                  # Ejecuta la API
 
-```bash
 cd ODataServiceConDB
 dotnet restore              # Restaura paquetes NuGet
 dotnet ef database update   # Restaura la base de datos
