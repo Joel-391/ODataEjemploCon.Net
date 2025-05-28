@@ -1,0 +1,27 @@
+## Archivos de compilación
+bin/
+obj/
+out/
+
+## Archivos de usuario y configuración local
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Archivos de entorno y configuración
+.env
+
+## Archivos de logs y temporales
+*.log
+*.tmp
+*.cache
+
+## Publicaciones
+publish/
+wwwroot/
+
+## Archivos específicos de sistema operativo
+.DS_Store
+Thumbs.db
