@@ -14,8 +14,12 @@ Este repositorio contiene dos ejemplos de servicios OData en ASP.NET Core 8:
 
 ```bash
 dotnet --list-sdks
+```
 8.0.410 [C:\Program Files\dotnet\sdk]
+
+```bash
 dotnet --list-runtimes
+```
 Microsoft.AspNetCore.App 8.0.16 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
 Microsoft.NETCore.App 8.0.16 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
 Microsoft.WindowsDesktop.App 8.0.16 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
@@ -24,10 +28,13 @@ Microsoft.WindowsDesktop.App 8.0.16 [C:\Program Files\dotnet\shared\Microsoft.Wi
 
 ```bash
 cd ODataServiceSinDB
-dotnet restore              # Restaura paquetes NuGet
-dotnet run                  # Ejecuta la API
+dotnet restore
+dotnet run
+```
 
+```bash
 cd ODataServiceConDB
-dotnet restore              # Restaura paquetes NuGet
-dotnet ef database update   # Restaura la base de datos
-dotnet run                  # Ejecuta la API
+dotnet restore
+dotnet ef database update
+dotnet run
+```
